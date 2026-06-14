@@ -43,10 +43,10 @@ The analysis is structured around three sub-questions:
 ## Repository Structure
 
 ```
-📁 poverty-health-oecd/
+📁 sdg1-sdg3-oecd-analysis/
 ├── README.md
 ├── data/
-│   └── sdg_data.csv          # Filtered OECD SDG dataset (Goals 1 & 3, 2000–2021)
+│   └── Source.md          # Link to the dataset
 ├── analysis/
 │   ├── analysis.R            # Full analysis in R
 │   └── analysis.ipynb        # Same analysis in Python (Google Colab)
