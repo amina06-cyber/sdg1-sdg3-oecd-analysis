@@ -42,20 +42,21 @@ The analysis is structured around three sub-questions:
 
 ## Repository Structure
 
+> Each folder contains a markdown file with more details about its contents. Check `data/SOURCE.md`, `analysis/analysis.md`, and `figures/figures.md` for more info.
+
 ```
-📁 sdg1-sdg3-oecd-analysis/
+📁 poverty-health-oecd/
 ├── README.md
 ├── data/
-│   └── Source.md          # Link to the dataset
+│   └── SOURCE.md             # Link to the OECD SDG dataset
 ├── analysis/
 │   ├── analysis.R            # Full analysis in R
 │   └── analysis.ipynb        # Same analysis in Python (Google Colab)
-├── figures/
-│   ├── figure1_scatter.png   # Poverty vs infant mortality scatter (2021)
-│   ├── figure2_trend.png     # Trend over time (2000–2021)
-│   ├── Rplot3.png            # Quadrant/outlier analysis
-│   └── Rplot4.png            # UHC vs poverty rate
-
+└── figures/
+    ├── figure1_scatter.png   # Poverty vs infant mortality scatter (2021)
+    ├── figure2_trend.png     # Trend over time (2000–2021)
+    ├── Rplot3.png            # Quadrant/outlier analysis
+    └── Rplot4.png            # UHC vs poverty rate
 ```
 
 > The analysis is implemented in both **R** and **Python** and produces equivalent results.
