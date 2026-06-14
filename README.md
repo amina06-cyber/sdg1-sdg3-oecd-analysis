@@ -12,6 +12,12 @@ A data science project exploring whether income poverty is linked to worse healt
 
 Poverty is measured using the **relative income poverty rate** (SDG 1.2 — share of population living below 50% of median national income). Health outcomes are captured through the **infant mortality rate** and the **UHC service coverage index** (SDG 3.8).
 
+The analysis is structured around three sub-questions:
+
+1. Is there a statistically significant cross-sectional association between income poverty and infant mortality across OECD countries in 2021?
+2. Has the relationship between poverty and infant mortality changed over the period 2000–2021?
+3. Which countries deviate from the expected poverty–health pattern, and can UHC coverage help explain these deviations?
+
 ---
 
 ## Key Findings
@@ -49,8 +55,7 @@ The analysis is structured around three sub-questions:
 │   ├── figure2_trend.png     # Trend over time (2000–2021)
 │   ├── Rplot3.png            # Quadrant/outlier analysis
 │   └── Rplot4.png            # UHC vs poverty rate
-└── report/
-    └── DSREPORT.docx         # Full written report
+
 ```
 
 > The analysis is implemented in both **R** and **Python** and produces equivalent results.
@@ -59,9 +64,11 @@ The analysis is structured around three sub-questions:
 
 ## Tools & Libraries
 
+**R (v4.6.0)** — `tidyverse`, `dplyr`, `ggplot2`, `ggrepel`, `cor.test()` (base R)
+
 **Python** — `pandas`, `numpy`, `matplotlib`, `scipy`
 
-**R** — base R with standard plotting and statistical functions
+> The analysis is implemented in both R and Python and produces equivalent results.
 
 ---
 
