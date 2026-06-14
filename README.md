@@ -45,7 +45,7 @@ The analysis is structured around three sub-questions:
 > Each folder contains a markdown file with more details about its contents. Check `data/SOURCE.md`, `analysis/analysis.md`, and `figures/figures.md` for more info.
 
 ```
-📁 poverty-health-oecd/
+📁 sdg1-sdg3-oecd-analysis/
 ├── README.md
 ├── data/
 │   └── SOURCE.md             # Link to the OECD SDG dataset
@@ -58,10 +58,6 @@ The analysis is structured around three sub-questions:
     ├── Rplot3.png            # Quadrant/outlier analysis
     └── Rplot4.png            # UHC vs poverty rate
 ```
-
-> The analysis is implemented in both **R** and **Python** and produces equivalent results.
-
----
 
 ## Tools & Libraries
 
